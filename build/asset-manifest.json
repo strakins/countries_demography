@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/countries_demography/static/css/main.02506db7.css",
+    "main.js": "/countries_demography/static/js/main.3ee3cf69.js",
+    "index.html": "/countries_demography/index.html",
+    "main.02506db7.css.map": "/countries_demography/static/css/main.02506db7.css.map",
+    "main.3ee3cf69.js.map": "/countries_demography/static/js/main.3ee3cf69.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02506db7.css",
+    "static/js/main.3ee3cf69.js"
+  ]
+}

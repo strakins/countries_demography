@@ -29,7 +29,7 @@ const CountryDetails = () => {
         {isLoading ? (
           <h2 className="flex items-center justify-center h-screen text-4xl tracking-widest text-lightModeText dark:text-darkModeText font-bold md:text-7xl"> Fecthing Data  <span className='animate-spin duration-200 px-8'>.</span> </h2> 
           ): (<section className='h-full lg:h-screen pt-32'>
-          <Link to="/" className='mx-32 px-4 py-3 shadow-lg border-2 text-lightModeText dark:text-darkModeText dark:border-darkModeElement rounded border-lightModeElement'> <FaArrowLeft className='inline'/> <h5 className='inline pt-3'>Back</h5> </Link>
+          <Link to="/countries_demography" className='mx-32 px-4 py-3 shadow-lg border-2 text-lightModeText dark:text-darkModeText dark:border-darkModeElement rounded border-lightModeElement'> <FaArrowLeft className='inline'/> <h5 className='inline pt-3'>Back</h5> </Link>
            {country.map(({ name, flag, region, subregion, capital, population, nativeName, topLevelDomain, borders, languages, currencies }) => (
               <section key={name} className="overflow-y-visible py-8 mx-32 lg:flex text-lightModeText dark:text-darkModeText">
                   <div className='lg:pt-16'>

@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         < Header />
         <Routes>
-          <Route path="/" exact element={< Countries />} />
+          <Route path="/countries_demography" exact element={< Countries />} />
           <Route path="/:name" element={< CountryDetails />} />
           <Route path="*" element={< Error />} />
         </Routes>
